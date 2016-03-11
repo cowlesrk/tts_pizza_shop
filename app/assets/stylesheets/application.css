@@ -26,3 +26,26 @@ html, body {
 	color: white;
 
 }
+
+.pizza {
+	background-image: url('https://patxispizza.com/wp-content/uploads/2012/08/signature.jpg');
+	height: 515px;
+	width: 990px;
+	padding: 5%;
+	float: left;
+}
+
+.pizza p {
+	color: white;
+	font-size: 3em;
+	padding: 1%;
+}
+
+.why {
+	max-width: 500px;
+	float: right;
+}
+
+.list-group {
+	float: right;
+}
