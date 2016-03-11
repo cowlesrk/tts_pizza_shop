@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+html, body {
+    background-image: linear-gradient(red, orange);
+    background-size: auto 200%;
+    background-position: 0 100%;
+    transition: background-position 0.5s;
+  
+    /* ...and various other button styles */
+}
