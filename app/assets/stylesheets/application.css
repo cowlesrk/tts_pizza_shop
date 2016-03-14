@@ -32,14 +32,19 @@ html, body {
 	height: 515px;
 	width: 990px;
 	padding: 5%;
+<<<<<<< HEAD
 	position: absolute;
 
+=======
+	float: left;
+>>>>>>> 07cbd64d86f9d464417cd6c832d1cc9aa20d7562
 }
 
 .pizza p {
 	color: white;
 	font-size: 3em;
 	padding: 1%;
+<<<<<<< HEAD
 
 }
 
@@ -65,4 +70,15 @@ html, body {
 	/*background-color: black;
 	color: white;*/
 
+=======
+}
+
+.why {
+	max-width: 500px;
+	float: right;
+}
+
+.list-group {
+	float: right;
+>>>>>>> 07cbd64d86f9d464417cd6c832d1cc9aa20d7562
 }
