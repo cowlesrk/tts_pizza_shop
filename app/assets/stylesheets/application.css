@@ -1,24 +1,68 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
-
 html, body {
     background-image: linear-gradient(red, orange);
-    background-size: auto 200%;
-    background-position: 0 100%;
-    transition: background-position 0.5s;
-  
-    /* ...and various other button styles */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+ 
+}
+
+.jumbotron {
+	background-color: black;
+
+	}
+
+.jumbotron h1 {
+	color: red;
+}
+
+.jumbotron p {
+	color: white;
+	font-size: 1.5em;
+	padding: 1%;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+
+}
+
+.pizza {
+	background-image: url('https://patxispizza.com/wp-content/uploads/2012/08/signature.jpg');
+	height: 515px;
+	width: 990px;
+	padding: 5%;
+	position: absolute;
+
+}
+
+.pizza p {
+	color: white;
+	font-size: 3em;
+	padding: 1%;
+
+}
+
+.why {
+	width: 500px;
+	position: absolute;
+	right: 350px;
+	padding: 20px;
+	background-color: black;
+
+}
+
+.why h1, h3, p {
+	color: white;
+}
+
+.why h2 {
+	color: red;
+}
+
+.list-group-inverse {
+	position: relative;
+	/*background-color: black;
+	color: white;*/
+
 }
