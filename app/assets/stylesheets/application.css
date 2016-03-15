@@ -7,6 +7,10 @@ html, body {
  
 }
 
+#leftCol {float: left; width: 175px;}
+#rightCol {float: right; width: 175px;}
+
+
 .jumbotron {
 	background-color: black;
 
@@ -32,20 +36,38 @@ html, body {
 	height: 515px;
 	width: 990px;
 	padding: 5%;
-	float: left;
+	position: absolute;
+
 }
 
 .pizza p {
 	color: white;
 	font-size: 3em;
 	padding: 1%;
+
 }
 
 .why {
-	max-width: 500px;
+	width: 500px;
+	position: absolute;
 	float: right;
+	right: 200px;
+	padding: 20px;
+	background-color: black;
+
 }
 
-.list-group {
-	float: right;
+.why h1, h3, p {
+	color: white;
+}
+
+.why h2 {
+	color: red;
+}
+
+.list-group-inverse {
+	position: relative;
+	/*background-color: black;
+	color: white;*/
+
 }
