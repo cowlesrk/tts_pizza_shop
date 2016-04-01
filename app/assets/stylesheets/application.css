@@ -37,6 +37,10 @@ html, body {
 	width: 990px;
 	padding: 5%;
 	position: absolute;
+<<<<<<< HEAD
+=======
+	float: left;
+>>>>>>> 9034efd2d6f14cba6a23f38f1468ffe132965ec7
 
 }
 
@@ -50,6 +54,31 @@ html, body {
 .why {
 	width: 500px;
 	position: absolute;
+<<<<<<< HEAD
+=======
+	right: 350px;
+	padding: 20px;
+	background-color: black;
+
+}
+
+.why h1, h3, p {
+	color: white;
+}
+
+.why h2 {
+	color: red;
+}
+
+.list-group-inverse {
+	position: relative;
+	/*background-color: black;
+	color: white;*/
+}
+
+.why {
+	max-width: 500px;
+>>>>>>> 9034efd2d6f14cba6a23f38f1468ffe132965ec7
 	float: right;
 	right: 200px;
 	padding: 20px;
