@@ -7,9 +7,6 @@ html, body {
  
 }
 
-#leftCol {float: left; width: 175px;}
-#rightCol {float: right; width: 175px;}
-
 
 .jumbotron {
 	background-color: black;
@@ -31,20 +28,44 @@ html, body {
 
 }
 
+#container {
+    width:100%;
+    margin:20px auto;
+  
+}
+
+#content {
+    float:left;
+    width:60%;
+         -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
+#sidebar {
+    float:left;
+    width:40%
+         -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
+#footer {
+    clear:both;
+}
+
+
 .pizza {
 	background-image: url('https://patxispizza.com/wp-content/uploads/2012/08/signature.jpg');
 	height: 515px;
 	width: 990px;
 	padding: 5%;
-	position: absolute;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-	float: left;
->>>>>>> 9034efd2d6f14cba6a23f38f1468ffe132965ec7
-=======
-	float: left;
->>>>>>> 9034efd2d6f14cba6a23f38f1468ffe132965ec7
 
 }
 
@@ -57,9 +78,6 @@ html, body {
 
 .why {
 	width: 500px;
-	position: absolute;
-<<<<<<< HEAD
-=======
 	right: 350px;
 	padding: 20px;
 	background-color: black;
@@ -72,58 +90,4 @@ html, body {
 
 .why h2 {
 	color: red;
-}
-
-.list-group-inverse {
-	position: relative;
-	/*background-color: black;
-	color: white;*/
-}
-
-.why {
-	width: 500px;
-	position: absolute;
-	right: 350px;
-	padding: 20px;
-	background-color: black;
-
-}
-
-.why h1, h3, p {
-	color: white;
-}
-
-.why h2 {
-	color: red;
-}
-
-.list-group-inverse {
-	position: relative;
-	/*background-color: black;
-	color: white;*/
-}
-
-.why {
-	max-width: 500px;
->>>>>>> 9034efd2d6f14cba6a23f38f1468ffe132965ec7
-	float: right;
-	right: 200px;
-	padding: 20px;
-	background-color: black;
-
-}
-
-.why h1, h3, p {
-	color: white;
-}
-
-.why h2 {
-	color: red;
-}
-
-.list-group-inverse {
-	position: relative;
-	/*background-color: black;
-	color: white;*/
-
 }
