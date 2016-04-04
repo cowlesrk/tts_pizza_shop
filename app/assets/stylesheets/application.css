@@ -53,14 +53,13 @@ html, body {
 	background-image: url('https://patxispizza.com/wp-content/uploads/2012/08/signature.jpg');
 	height: 515px;
 	width: 990px;
-	padding: 5%;
 
 }
 
-#content, .pizza p {
+.pizza p {
 	color: white;
 	font-size: 3em;
-	padding: 1%;
+	padding: 5%;
 
 }
 
