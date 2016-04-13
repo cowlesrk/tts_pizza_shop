@@ -61,14 +61,14 @@ html, body, footer, table {
 
 }
 
-.wings {
-	float: left;
+
+/*.wings {
+	float: left; 
+	width: 33%;
 	background: black;
 	border: 20px black solid;
-	width: 40%; /* ie5win fudge begins */
 	voice-family: "\"}\"";
 	voice-family:inherit;
-	width: 40%;
 }
 
 .wings img {
@@ -76,13 +76,12 @@ html, body, footer, table {
 }
 
 .breadsticks {
-	float: right;
-	background: black;
+	float: right; 
+	width: 33%;
 	border: 20px black solid;
-	width: 60%; /* ie5win fudge begins */
 	voice-family: "\"}\"";
 	voice-family:inherit;
-	width: 55%;
+
 	}
 
 .breadsticks img {
@@ -91,13 +90,12 @@ html, body, footer, table {
 
 
 .smores {
-	float: left;
+	display: inline-block; 
+	width: 33%;
 	background: black;
 	border: 20px black solid;
-	width: 60%; /* ie5win fudge begins */
 	voice-family: "\"}\"";
 	voice-family:inherit;
-	width: 55%;
 	}
 
 .smores img {
@@ -107,7 +105,7 @@ html, body, footer, table {
 .text {
 	float: right;
 	background: black;
-	width: 40%; /* ie5win fudge begins */
+	width: 40%; /* ie5win fudge begins 
 	voice-family: "\"}\"";
 	voice-family:inherit;
 	width: 40%;
@@ -115,7 +113,7 @@ html, body, footer, table {
 
 .text img {
 	max-width: 100%;
-}
+}*/
 .pizza p {
 	color: white;
 	font-size: 3em;
