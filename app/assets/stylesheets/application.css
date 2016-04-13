@@ -1,10 +1,15 @@
-html, body, footer {
+html, body, footer, table {
     background-image: linear-gradient(red, orange);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 50px;
+    padding-top: 20px;
  
+}
+
+
+.table {
+	padding: 20px;
 }
 
 
@@ -31,13 +36,16 @@ html, body, footer {
 #container {
     width:100%;
     margin:20px auto;
+    padding: 20px;
   
 }
+
 
 #sidebar {
     float:right;
     width:340px;
-    padding: 5px;
+    padding: 20px;
+
 }
 
 #footer {
@@ -49,12 +57,14 @@ html, body, footer {
 	height: 515px;
 	width: 60%;
 	float: left;
+	padding:20px;
 
 }
 
 .wings {
 	float: left;
 	background: black;
+	border: 20px black solid;
 	width: 40%; /* ie5win fudge begins */
 	voice-family: "\"}\"";
 	voice-family:inherit;
@@ -68,6 +78,7 @@ html, body, footer {
 .breadsticks {
 	float: right;
 	background: black;
+	border: 20px black solid;
 	width: 60%; /* ie5win fudge begins */
 	voice-family: "\"}\"";
 	voice-family:inherit;
@@ -78,22 +89,11 @@ html, body, footer {
 	max-width: 100%;
 }
 
-.text {
-	float: left;
-	background: black;
-	width: 40%; /* ie5win fudge begins */
-	voice-family: "\"}\"";
-	voice-family:inherit;
-	width: 40%;
-}
-
-.text img {
-	max-width: 100%;
-}
 
 .smores {
-	float: right;
+	float: left;
 	background: black;
+	border: 20px black solid;
 	width: 60%; /* ie5win fudge begins */
 	voice-family: "\"}\"";
 	voice-family:inherit;
@@ -104,6 +104,18 @@ html, body, footer {
 	max-width: 100%;
 }
 
+.text {
+	float: right;
+	background: black;
+	width: 40%; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 40%;
+}
+
+.text img {
+	max-width: 100%;
+}
 .pizza p {
 	color: white;
 	font-size: 3em;
@@ -126,6 +138,7 @@ html, body, footer {
 #sidebar, .why h2 {
 	color: red;
 }
+
 
 
 
