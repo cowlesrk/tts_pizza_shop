@@ -17,6 +17,10 @@ html, body, footer {
   
 }
 
+.row {
+	padding-bottom: 20px;
+}
+
 /* jumbotron and navigation */
 
 .jumbotron {
@@ -67,6 +71,7 @@ html, body, footer {
 
 #sidebar, .why {
 	width: 500px;
+	height: 515px;
 	right: 350px;
 	padding: 20px;
 	background-color: black;
@@ -80,7 +85,10 @@ html, body, footer {
 #sidebar, .why h2 {
 	color: red;
 }
-
+.col-sm-2, .col-md-3, .col-md-9 {
+	padding: 20px;
+	margin bottom: 0;
+}
 /* thumbnail section */
 
 #container, .row {
@@ -90,6 +98,11 @@ html, body, footer {
 	background-color: black;
 	border-color: black;
 	position: relative;
+}
+
+.thumbnail img {
+	max-width: 400px;
+	max-height: 300px;
 }
 
 /* footer */
