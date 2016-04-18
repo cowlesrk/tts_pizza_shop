@@ -105,6 +105,14 @@ html, body, footer {
 	max-height: 300px;
 }
 
+/* panel */
+
+.panel, .panel-inverse {
+	background-color: black;
+	color: white;
+	
+}
+
 /* footer */
 
 #footer {
