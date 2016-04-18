@@ -1,4 +1,6 @@
-html, body, footer, table {
+/* overall page styling */
+
+html, body, footer {
     background-image: linear-gradient(red, orange);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -7,11 +9,14 @@ html, body, footer, table {
  
 }
 
-
-.table {
-	padding: 20px;
+#container {
+    width:100%;
+    margin:20px auto;
+    padding: 20px;
+  
 }
 
+/* jumbotron and navigation */
 
 .jumbotron {
 	background-color: black;
@@ -33,24 +38,8 @@ html, body, footer, table {
 
 }
 
-#container {
-    width:100%;
-    margin:20px auto;
-    padding: 20px;
-  
-}
 
-
-#sidebar {
-    float:right;
-    width:340px;
-    padding: 20px;
-
-}
-
-#footer {
-    clear:both;
-}
+/* first content row */
 
 .pizza {
 	background-image: url('https://patxispizza.com/wp-content/uploads/2012/08/signature.jpg');
@@ -61,63 +50,17 @@ html, body, footer, table {
 
 }
 
-
-/*.wings {
-	float: left; 
-	width: 33%;
-	background: black;
-	border: 20px black solid;
-	voice-family: "\"}\"";
-	voice-family:inherit;
-}
-
-.wings img {
-	max-width: 100%;
-}
-
-.breadsticks {
-	float: right; 
-	width: 33%;
-	border: 20px black solid;
-	voice-family: "\"}\"";
-	voice-family:inherit;
-
-	}
-
-.breadsticks img {
-	max-width: 100%;
-}
-
-
-.smores {
-	display: inline-block; 
-	width: 33%;
-	background: black;
-	border: 20px black solid;
-	voice-family: "\"}\"";
-	voice-family:inherit;
-	}
-
-.smores img {
-	max-width: 100%;
-}
-
-.text {
-	float: right;
-	background: black;
-	width: 40%; /* ie5win fudge begins 
-	voice-family: "\"}\"";
-	voice-family:inherit;
-	width: 40%;
-}
-
-.text img {
-	max-width: 100%;
-}*/
 .pizza p {
 	color: white;
 	font-size: 3em;
 	padding: 5%;
+
+}
+
+#sidebar {
+    float:right;
+    width:340px;
+    padding: 20px;
 
 }
 
@@ -137,8 +80,17 @@ html, body, footer, table {
 	color: red;
 }
 
+/* thumbnail section */
+.thumbnail {
+	background-color: black;
+	border-color: black;
+}
 
+/* footer */
 
+#footer {
+    clear:both;
+}
 
 .full {
     width: 100%;	
