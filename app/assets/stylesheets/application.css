@@ -13,6 +13,7 @@ html, body, footer {
     width:100%;
     margin:20px auto;
     padding: 20px;
+    overflow: hidden;
   
 }
 
@@ -44,7 +45,7 @@ html, body, footer {
 .pizza {
 	background-image: url('https://patxispizza.com/wp-content/uploads/2012/08/signature.jpg');
 	height: 515px;
-	width: 60%;
+	width: 900px;
 	float: left;
 	padding:20px;
 
@@ -59,7 +60,7 @@ html, body, footer {
 
 #sidebar {
     float:right;
-    width:340px;
+    width:500px;
     padding: 20px;
 
 }
@@ -81,9 +82,14 @@ html, body, footer {
 }
 
 /* thumbnail section */
+
+#container, .row {
+	position: relative;
+}
 .thumbnail {
 	background-color: black;
 	border-color: black;
+	position: relative;
 }
 
 /* footer */
